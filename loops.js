@@ -16,3 +16,14 @@ function whileLoop(n){
   }
   return "done"
 }
+
+function doWhileLoop(a){
+  function maybe(){
+    return Math.random()>=0.5
+  }
+  do{
+    a.pop()
+  }
+  while(array.length>0 && maybe())
+  return a
+}
