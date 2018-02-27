@@ -4,6 +4,6 @@ function forloop(a){
       a.push('I am 1 strange loop')
     }
     else{
-      a.push(`I am ${i] strange loop.`)
+      a.push(`I am ${i} strange loop.`)
   }
 }
