@@ -1,5 +1,9 @@
 function forloop(a){
   for (i=0; i<25; i++){
-    a.push('I am' + i + 'strange loop.')
+    if (i===1){
+      a.push('I am 1 strange loop')
+    }
+    else{
+      a.push(`I am ${i] strange loop.`)
   }
 }
