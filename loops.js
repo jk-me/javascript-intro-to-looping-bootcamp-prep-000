@@ -24,6 +24,6 @@ function doWhileLoop(a){
   do{
     a.pop()
   }
-  while(array.length>0 && maybe())
+  while(a.length>0 && maybe())
   return a
 }
